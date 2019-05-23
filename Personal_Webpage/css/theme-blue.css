@@ -1,0 +1,46 @@
+a, h1, .twitter-bird, .resume-btn i {
+    color: #3eaf81;
+}
+
+#top-bar, #nav-bar, .contact-info li span, .my-service span, .skillbar-bar, .social_icons ul li a, #back-top a:hover, .date-wrap, .resume-btn a, .resume-btn a:hover i {
+    background-color: #28382f;
+}
+
+.grid svg path {
+    fill: #4682b4;
+}
+
+.twitter-bird {
+    border: 1px solid #4682b4;
+}
+
+.date-wrap:before {
+    border-top: 8px solid #4682b4;
+}
+
+
+/*additional colors:
+    #2176ae :: original
+    #57b8ff
+    #003049
+    #08b2e3
+
+    <!-- Paired Colors -->
+    #00cfc1
+    #0e2a2b
+    <!-- Paired Colors End -->
+
+    <!-- Paired Colors -->
+    #234150
+    #112839
+    <!-- Paired Colors End -->
+
+    <!-- Paired Colors -->
+    #28382f
+    #164532
+    #3eaf81
+    <!-- Paired Colors End -->
+
+    <!-- Paired Colors -->
+    <!-- Paired Colors End -->
+*/
