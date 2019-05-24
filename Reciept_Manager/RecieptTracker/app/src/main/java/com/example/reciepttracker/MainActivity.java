@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     static DropboxAPI<AndroidAuthSession> dropboxAPI;
-    private static final String APP_KEY = "9mkov45qzp73lwc";
-    private static final String APP_SECRET = "zvcscw58tdh6npk";
-    private static final String ACCESSTOKEN = "khr9EwKtTSAAAAAAAAAADSAJBb65LGa1veqVLoJA8bkB76CuCsW8awLo1inQW7cI";
+    private static final String APP_KEY = "";
+    private static final String APP_SECRET = "";
+    private static final String ACCESSTOKEN = "";
     private DropboxAPI.UploadRequest request;
     private AndroidAuthSession buildSession()
     {
