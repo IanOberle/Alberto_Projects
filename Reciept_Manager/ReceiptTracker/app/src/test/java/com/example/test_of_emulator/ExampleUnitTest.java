@@ -1,4 +1,4 @@
-package com.example.reciepttracker;
+package com.example.test_of_emulator;
 
 import org.junit.Test;
 

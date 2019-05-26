@@ -1,4 +1,4 @@
-package com.example.reciepttracker;
+package com.example.test_of_emulator;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.reciepttracker", appContext.getPackageName());
+        assertEquals("com.example.test_of_emulator", appContext.getPackageName());
     }
 }
