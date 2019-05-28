@@ -178,13 +178,13 @@
 .currentCrossLink {
   font-weight: bold;
 }
-.ls-wrapper .ls-nav ul {  
-  padding:0;  
-  /* Do not edit below this line */
-  clear: both;
-  display: block;
-  margin: auto;
-  overflow: hidden;
+.ls-wrapper .ls-nav ul {
+    padding: 0;    
+    /* Do not edit below this line */
+    clear: both;
+    display: block;
+    margin: auto;
+    overflow: hidden;
 }
 .ls-wrapper .ls-nav ul li {             
     /* Do not edit below this line */

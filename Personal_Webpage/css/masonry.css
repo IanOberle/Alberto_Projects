@@ -1,0 +1,32 @@
+/* Masonry grid */
+.masonry {
+    /*transition: all .5s ease-in-out;*/
+    columns: 1;
+    column-gap: 0px;
+    column-fill: initial;    
+}
+
+.masonry-item {
+    /*display: inline-block;*/
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.masonry-item, .masonry-content {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Masonry on tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+/* Masonry on big screens */
+@media only screen and (min-width: 1024px) {  
+  .masonry {
+    column-count: 3;
+  }
+}

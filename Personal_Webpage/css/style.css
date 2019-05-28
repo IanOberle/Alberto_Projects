@@ -270,8 +270,8 @@ header{
 /* ========= End =========== */
 
 /* ========= Two Column Paragraph Section =========== */
-.column_section_text_row {
-    margin-top: 24px;
+.column_section_text_row {    
+    margin:24px 10px 0px 10px;
 }
 
 .column_section_text {
@@ -732,4 +732,52 @@ hr{
 	line-height:35px;
 	color:#FFF;
 }
+/* ========= End =========== */
+
+/* ========= Card =========== */
+.card {
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    margin: 30px auto;
+    transition: 0.4s;
+}
+
+    .card:hover {
+        transform: scale(0.95, 0.95);
+        box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22);
+    }
+/* ========= End =========== */
+
+/* ========= Masonry =========== */
+/*.masonry {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-auto-rows: auto;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+        grid-template-columns: repeat(2, minmax(100px,1fr));
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .masonry {
+        grid-template-columns: repeat(3, minmax(100px,1fr));
+    }
+}
+
+.masonry-item, .masonry-content {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.masonry-item {
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, .3));
+    transition: filter .25s ease-in-out;
+}
+
+    .masonry-item:hover {
+        filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .3));
+    }*/
 /* ========= End =========== */
