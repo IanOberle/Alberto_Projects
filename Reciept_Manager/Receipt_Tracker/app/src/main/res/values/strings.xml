@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Receipt_Tracker 2.0</string>
+    <string name="TextView">TextView</string>
+    <string name="Path">Path</string>
+    <string name="App">App</string>
+    <string name="FileManager">FileManager</string>
+    <string name="Download">Download</string>
+    <string name="Get_Address">Get Address</string>
+
+</resources>
