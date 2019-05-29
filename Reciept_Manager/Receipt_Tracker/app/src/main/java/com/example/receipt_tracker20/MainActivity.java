@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
     Button button5;
     TextView textAddress;
     static DropboxAPI<AndroidAuthSession> dropboxAPI;
-    private static final String APP_KEY = "bluik4guz6zjprn";
-    private static final String APP_SECRET = "tcmo82tgt089c6y";
-    private static final String ACCESSTOKEN = "yRQkBJpRSOAAAAAAAAAATXckbsl-XOrMLi9kw-M4SutiS7BwnptM-B5-ZQBswKaH";
-    private static final String Google_API_KEY = "AIzaSyBwYov9vt_XRJyMb8-y-Ue3top_npkTNx0";
+    private static final String APP_KEY = "";
+    private static final String APP_SECRET = "";
+    private static final String ACCESSTOKEN = "";
+    private static final String Google_API_KEY = "";
     LocationManager mLocationManager;
     double lat, lng;
     String address;
